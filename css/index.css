@@ -1,0 +1,387 @@
+@font-face
+{
+    font-family: 'sarasa';
+    src: url('../font/sarasa-gothic-sc-regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'sarasa';
+}
+.chapter_title{
+    margin-top: 70px;
+    padding:40px 0 40px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    letter-spacing: 3.5px;
+    background-color: #EEECEB;
+    color: rgb(56, 56, 56);
+}
+.content{
+    width: 780px;
+    margin: 0 auto 0 auto;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 30px;
+}
+.content p{
+    margin-top: 20px;
+}
+/* ===============头部============== */
+#top{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 46px;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #c7c7c7;
+    box-shadow:0 0 7px 1px #00000048;
+}
+#logo{
+    height: 28px;
+    margin-top: 9px;
+    margin-left: 30px;
+}
+#navigation{
+    float: right;
+    margin-right: 15px;
+}
+.nav{
+    float: left;
+    line-height: 46px;
+    padding:0 9px;
+    font-size: 15px;
+    color: #404040;
+}
+.nav:hover{
+    font-weight: bold;
+}
+.nav_point{
+    float: left;
+    line-height: 46px;
+    color: #A6A6A6;
+    font-weight: bold;
+}
+/* ============头图与标题============== */
+#headpic{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    object-fit: cover;   /*用来使图片自适应大小 */
+}
+#title_area{
+    width: 100%;
+    height: 88vh;
+    overflow:hidden;
+    clear: both;
+    position: relative;
+}
+#title{
+    position: absolute;
+    font-size: 55px;
+    font-family: '微软雅黑';
+    color: white;
+    font-weight: bold;
+    left: 150px;
+    bottom: calc(14vh + 140px);
+
+}
+#subtitle{
+    color: white;
+    position: absolute;
+    left: 150px;
+    bottom: 14vh;
+    font-family: '微软雅黑';
+    font-size: 15.5px;
+    line-height: 40px;
+}
+#location{
+    background-color: #212121;
+    color: white;
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    top:-30px;
+    left: 140px;
+}
+/*================第0部分正文==============*/
+
+#liangshan_num{
+    margin: 0 auto;
+    width: 660px;
+    padding-top:50px;
+    text-align: center;
+    color: #ef452f;
+}
+#xian{
+    width: 220px;
+    float: left;
+}
+#cun{
+    width: 220px;
+    float: left;
+}
+#ren{
+    width: 220px;
+    float: left;
+}
+.num{
+    font-size: 45px;
+    font-weight: bold;
+}
+.content0_1{
+    clear: both;
+    margin-top: 90px;
+}
+#pic1{
+    width: 700px;
+    display: block;
+    margin:40px auto 40px auto;
+}
+/*================第一部分===============*/
+.content1_1{
+    margin-top: 50px;
+}
+#mychart1{                                    /*中国地图*/
+    width: 550px;
+    height: 450px;
+    margin: 40px auto 30px auto;
+}
+#mychart2{                                         /*贫困线上升图*/
+    /* border: 1px solid rgb(117, 117, 117); */
+    width: 400px;
+    height: 260px;
+    margin: 40px auto 0 auto;
+    transform: translateX(-10px);
+}
+#Mychart3{
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    margin-top: 60px;
+    padding:50px 0;
+    border-top: 1px solid rgb(223, 223, 223);
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.Mychart3title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    color: #3d3d3d;
+    text-align: center;
+}
+.Mychart3subtitle{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    text-align: center;
+    color: #4d4d4d;
+}
+
+#input{
+    text-align: center;
+}
+input{ 
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    border:0; 
+    border-bottom:2px solid #3d3d3d;;
+    text-align: flex-start;
+    background-color: rgb(245, 245, 245);
+}
+#number{text-align:center;}
+#danwei{
+    font-size: 20px;
+    color: #3d3d3d;
+}
+#mychart3size{                                        /*生活费vs贫困线*/
+    margin: 20px auto 0 auto;
+    width: 100%;
+    max-width:900px;
+    height: 210px;
+}
+
+/*================第二部分===============*/
+.content2_1{
+    margin-top: 50px;
+}
+#pic2{
+    width: 700px;
+    display: block;
+    margin:30px auto 30px auto;
+}
+#charts{
+    width: 750px;
+    margin: 40px auto 0 auto;
+    padding-left: 50px;
+}
+#mychart4{
+    width: 360px;
+    height: 250px;
+    float: left;
+}
+#mychart5{
+    width: 360px;
+    height: 250px;
+    float: left;
+}
+
+#pic3{
+    clear: both;
+    width: 500px;
+    display: block;
+    margin:0 auto 0 auto;
+}
+
+#mychart6{
+    width: 750px;
+    height: 300px;
+    margin: 10px auto 0 auto;
+}
+
+/* =================第三部分================= */
+.content3_1{
+    margin-top: 50px;
+}
+#pic4{
+    width: 700px;
+    display: block;
+    margin:30px auto 30px auto;
+}
+
+#scrolly {
+    position: relative;
+    padding: 1rem;
+  }
+
+  article {
+    position: relative;
+    padding: 0;
+    max-width: 15rem;
+    margin: 0 auto;
+  }
+
+  figure {
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 0;
+  }
+
+  figure img {
+    width: 750px;
+  }
+
+  .step {
+    margin: 0 auto 2rem auto;
+    color: #fff;
+  }
+
+  .step:last-child {
+    margin-bottom: 0;
+  }
+
+  .step.is-active p {
+    background-color: goldenrod;
+    color: #3b3b3b;
+  }
+
+  .step p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+    background-color: #3b3b3b;
+  }
+
+
+.twentytwenty-container{
+    margin-top: 100px;
+    width: 700px;
+    margin: 0 auto;
+}
+.twentytwenty-container img{
+    width: 700px;
+}
+#mychart7{                                         /*消费上升图*/
+    width: 400px;
+    height: 300px;
+    margin: 40px auto 0 auto;
+    transform: translateX(-10px);
+}
+#meantitle1, #meantitle2{
+    font-family: '微软雅黑';
+    font-weight: bold;
+    font-size: 17px;
+    width: 780px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mean1, #mean2{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: justify;
+}
+#mychart8{
+    margin-top: 40px;
+    
+    width: 600px;
+    height: 480px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ===========第四部分============== */
+.content4_1{
+    margin-top: 50px;
+}
+#mychart9{
+    width: 100%;
+    max-width: 400px;
+    height: 280px;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+}
+#names{
+    width: 700px;
+    margin:50px auto 0 auto;
+    line-height: 30px;
+    font-size: 13px;
+}
+.people{
+    width: 60px;
+    display: inline-block;
+}
+
+
+/* ===========底部============== */
+#bottom{
+    width: 100%;
+    height: 100px;
+    background-color: #7C7C7C;
+    padding-top: 30px;
+}
+#bottom p{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+
+}
