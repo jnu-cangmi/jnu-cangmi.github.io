@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" href="css/index.css" rel="stylesheet"/>
+        <link type="text/css" href="css/twentytwenty.css" rel="stylesheet"/>
+
+        <script type="text/javascript" src="js/echarts.js"></script>
+        <script type="text/javascript" src="js/china.js"></script>
+        <script type="text/javascript" src="js/Chart.min.js"></script>
+
+        <title>中国·扶贫故事</title>
+    </head>
+    <body>
+        <div id="top">
+            <a href="https://xwxy.jnu.edu.cn/" target="_blank"><img src="img/logo.png" id="logo"></a>
+            <div id="navigation">
+                <a href="#hr1"><div class="nav nav1">呼声</div></a>
+                <div class="nav_point">·</div>
+                <a href="#hr2"><div class="nav nav2">行动</div></a>
+                <div class="nav_point">·</div>
+                <a href="#hr3"><div class="nav nav3">成绩</div></a>
+                <div class="nav_point">·</div>
+                <a href="#hr4"><div class="nav nav4">纪念</div></a>
+            </div>
+        </div>
+
+        <div id="title_area">
+            <img id="headpic" src="img/首图.jpg">
+            <div id="title">中国·扶贫故事</div>
+            <div id="subtitle">
+                <p>贫穷，一直是中国的一块心病。</p>
+                <p>这个曾贫困人口占八成的国家，</p>
+                <p>怎么让它的人民脱离贫穷？</p>
+            </div>
+        </div>
+
+        <div id="location">四川 · 大凉山</div>
+
+        <div id="liangshan_num">
+            <div id="xian"><span class="num">7</span>个贫困县</div>
+            <div id="cun"><span class="num">300</span>个贫困村</div>
+            <div id="ren"><span class="num">17.8</span>万贫困人口</div>
+        </div>
+        <div class="content content0_1">
+            <p>一间小屋子被分成两半，人畜同住，左侧是牛圈，杂草上散落着牛粪，右侧则是人住的地方。房间内除了一块木板和4摞砖头组成的简易床外，连个板凳都没有，土墙也被多年的炊烟熏得一片漆黑。酸菜加土豆便是一家7口的三餐，对他们来说，吃米饭和肉是一件奢侈的事，大米每10天逢集时才能吃到，肉一年最多只能吃3次。家里除了大儿子，老二、老三都到了学龄，却没有上学……这是四川省大凉山区美姑县拉木阿觉乡马依村村民尔日书进的生活。</p>
+            <p>四川的大凉山，中国最贫困的地区之一。7个贫困县，300个贫困村，17.8万贫困人口，这三个数字，来自6月8日凉山州第十一届人民代表大会第五次会议上作的政府工作报告。</p>
+            <p>高山、深谷、河谷、盆地，相互交错，交通通达性差，生态环境脆弱，地质灾害多发，贫穷在这里成为一个普遍发生、盘根错节的问题。在这里，能见到许多人仍居住在漏雨的土坯房里，以耕种为生，以土豆为主食，在这里，能见到孩子们衣着破旧，蓬头垢面。</p>
+        </div>
+        <img src="img/pic1.jpg" id="pic1">
+        <div class="content content0_2">
+            <p>有一首彝族歌叫《走出大凉山》，歌词这样唱：“噢我最亲我最爱的大凉山，千万年的美丽还是没改变，远走的心依然在留连，噢我最亲我最爱的大凉山。呷嫫，阿牛请你闭上你的眼，别说走后你会很想念。”</p>
+        </div>
+
+
+        <div class="chapter_title chapter_title1" id="hr1">01.发出减贫的<span style="color: #ef452f; font-weight: bold; font-family: '微软雅黑';">呼声</span></div>
+
+        <div class="content content1_1">
+            <p>贫穷一直是这个国家的一块心病。</p>
+            <p>1978年，也就是中国刚刚宣布“改革开放”计划的时候，按现行标准计算中国的农村贫困人口有77039万，农村贫困发生率高达97.5%。人民日益增长的物质文化需要和当时中国落后的社会生产之间，横跨着巨大的鸿沟。</p>
+            <p>从上个世纪80年代中期开始，中国政府以县为单位，进行国家级贫困县的认定。当时的标准是年人均收入低于150元，随后逐步调整。根据中国国务院扶贫办2014年在其网站上公布的数据，2014年中国的贫困县数量为832个，在这里面，中西部是贫困分布的主要地区，其中，云南、西藏、四川、贵州等地尤为突出。</p>
+        </div>
+
+        <div id="mychart1"></div>
+        <script type="text/javascript" src="js/mychart1.js"></script>                <!-- 中国地图 -->
+
+        <div class="content content1_2">
+            <p>减贫也一直是中国政府工作的一个聚焦点，中国的历届领导人，都在自己的执政期内努力将自己的国家带出贫穷。</p>
+            <p>1986年起，中国政府成立了专门扶贫的工作机构安排中央财政专项扶贫资金，确立了开发式的扶贫方针；1994年，《国家八七扶贫攻坚计划》正式启动，提出要用7年左右时间基本解决8000万农村贫困人口的温饱问题；2001年和2011年，中国先后实施两个为期10年的《中国农村扶贫开发纲要》，进一步加大了扶贫力度。</p>
+            <p>时间是2013年，在湖南湘西进行考察时，习近平这个曾有过7年农村生活经历的国家主席提出“精准扶贫”的路径，要对扶贫对象实施精确识别、精确帮扶、精确管理。那以后，中国转变以往“粗放式”的扶贫方式，开始了精准式的扶贫。</p>
+            <p>深度贫困的凉山是这个国家现存贫困的一个集中缩影，根据中国国家统计局的数据，2019年末在中国，仍有551万人属于“绝对贫困人口”的范畴，他们的年人均收入低于4000元。</p>
+            <p>4000元/年是中国政府划定的当前绝对贫困标准线。不同于其他国家以人们的收入状况来确定贫困线，中国是以热量为标准的——将每人每日2100大卡热量看做最低营养需求，再根据最低收入人群的消费结构来具体化，达不到这个热量摄入值的人属于贫困。而中国的贫困标准线也在随着时间不断抬高。</p>
+        </div>
+
+        <div id="mychart2"></div>
+        <script type="text/javascript" src="js/mychart2.js"></script>                <!-- 贫困标准提高stepline图 -->
+
+        <div id="Mychart3">                                                          <!-- 生活费与贫困线对比交互图 -->
+            <p class="Mychart3title">4000元意味着什么：输入你的月生活费，与贫困标准线进行对比</p>
+            <p class="Mychart3subtitle">*2020年中国的贫困标准线是4000元/年，即333元/月</p>
+            <div id="input"><input id="number" type="number" onkeydown="calMoney(event)"><span id="danwei"> 元/月</span></div>
+            <div id="mychart3size"><canvas id="mychart3"></canvas></div>            
+            <script type="text/javascript" src="js/mychart3.js"></script>
+            <div id="describe"></div>
+        </div>
+
+
+        <div class="chapter_title chapter_title2" id="hr2">02.拯救贫穷的<span style="color: #ef452f; font-weight: bold; font-family: '微软雅黑';">行动</span></div>
+
+        <div class="content content2_1">
+            <p>5月，凉山州支尔莫乡阿土列尔村居住的84户人家搬家了，他们走下2556级的钢梯，走出了这个海拔1400多米，落后而与世封闭的“悬崖村”。这是他们最后一次攀爬这条唯一出村的路了。</p>
+        </div>
+        <img src="img/pic2.jpg" id="pic2">
+        <div class="content content2_2">
+            <p>他们是政府易地搬迁脱贫政策的受益者。截至3月底，全国易地扶贫搬迁已实现入住947万人。这是中国政府为精准扶贫“最后一公里”做出的举措之一，除此之外还有发展生产、生态补偿、发展教育和社保兜底。</p>
+            <p>“精准扶贫”的理念被提出以来，中国在对贫困户的识别和针对性的帮扶工作上加快了速度，为农村贫困人口建档立卡，扶贫干部驻村，对贫困户直接负责。据统计，中国的“十八大”以来，驻村帮扶的扶贫干部超过280万。在高压且繁重的减贫任务之下，对这些扶贫干部来说，“5+2”和“白加黑”是他们工作的常态。</p>
+            <p>“作为驻村第一书记，爸爸早已习惯了凌晨早起，习惯了披星戴月，在人们还在熟睡的时候，在华灯初上之时，翻山越岭，跨水过桥，进屯入户，与群众拉家常，交朋友，听民声，解民意，了解其生产生活情况，与其共商脱贫大计，为民辛苦为民甜，尽心尽力地做好爸爸应该做的工作。”驻村第一书记杨林道在给女儿的家书中这样写道。</p>
+            <p>中央财政专项扶贫资金逐年增加，农村新农合补助标准逐步提高，农村路面硬化、客运车通车、危房改造……中国政府的行动力从来不差。</p>
+        </div>
+
+        <!-- “行动”的各种图表 -->
+        <div id="charts">        
+            <div id="mychart4"></div>
+            <script type="text/javascript" src="js/mychart4.js"></script>
+
+            <div id="mychart5"></div>
+            <script type="text/javascript" src="js/mychart5.js"></script>
+        </div>    
+
+        <img id="pic3" src="img/pic3.jpg"></img>   
+
+        <div id="mychart6"></div>
+        <script type="text/javascript" src="js/mychart6.js"></script>
+
+
+        <div class="content content2_3">
+            <p>企业也加入进来。以美团为例，美团利用数字经济平台优势在就业扶贫、培训扶贫、消费扶贫、公益扶贫、旅游扶贫等方面为扶贫在做出行动。截止2019年，美团已帮助85% 贫困骑手实现脱贫，并在公益平台累计募集2100万元，发布 170个公益募捐活动。阿里巴巴在电商脱贫、生态脱贫、教育脱贫、女性脱贫、健康脱贫等方面，发展优势产业、助力教育扶贫、销售扶贫产品。还有华润的“华润模式”、苏宁的“七位一体”电商扶贫、碧桂园的“乡村振兴战略”等等……这些企业们，投入人、财、物真帮实扶，帮助贫困地区的群众从贫穷中解离。</p>
+            <p>另外，政府非专职扶贫机构、社会组织、个人等其他社会扶贫主体也都在积极参与到扶贫的工作当中。国务院扶贫办主任刘永富在5月18日的新闻发布会上说，目前，833个民营企业、228个社会组织正在参与结对帮扶挂牌督战贫困村。</p>
+        </div>
+
+        <div class="chapter_title chapter_title3" id="hr3">03.晒出扶贫的<span style="color: #ef452f; font-weight: bold; font-family: '微软雅黑';">成绩</span></div>
+        <div class="content content3_1">
+            <p>四川省凉山彝族自治州昭觉县三河村的吉好也求一家也是精准扶贫的受益者。2016年他家人均年收入仅2000元，依靠畜禽养殖，这几年收入翻了几番。如今，他起早贪黑干劲更足：“总书记一直牵挂着彝族群众，我们更要加油干！”</p>
+        </div>
+        <img id="pic4" src="img/pic4.jpg"></img>   
+        <div class="content content3_2">
+            <p>近十年来，我国扶贫工作由开发式扶贫转为精准扶贫，变“大水漫灌”为“精准滴灌”。以习近平同志为核心的党中央把贫困人口脱贫作为全面建成小康社会的底线任务和标志性指标，在全国范围全面打响了脱贫攻坚战。脱贫攻坚力度之大、规模之广、影响之深，前所未有。扶贫工作取得了决定性进展，脱贫成就举世瞩目。</p>
+            <p>按照现行贫困标准，我国农村贫困人数由2010年的1.66亿锐减至2019年的551万，每年减贫人数均保持在1100万以上。近十年来，农村已累计减贫16049万人，累计减贫幅度达到96.7％，农村贫困发生率也从17.2％下降至0.6％。</p>
+        </div>
+
+        
+        <main>
+            <section id="scrolly">
+              <figure>
+                <img src="img/1.jpg" id="test">
+              </figure>
+      
+              <article>
+                <div class="step" data-step="1">
+                  <p>2010年</p>
+                </div>
+                <div class="step" data-step="2">
+                  <p>2013年</p>
+                </div>
+                <div class="step" data-step="3">
+                  <p>2016年</p>
+                </div>
+                <div class="step" data-step="4">
+                  <p>2019年</p>
+                </div>
+                <div class="step" data-step="5">
+                  <p>2020年</p>
+                </div>
+              </article>
+            </section>
+            <section id="outro"></section>
+        </main>
+        <script src="js/d3.min.js"></script>
+        <script src="js/stickyfill.min.js"></script>
+        <script src="js/scrollama.min.js"></script>
+        <script>
+            // using d3 for convenience
+            var main = d3.select("main");
+            var scrolly = main.select("#scrolly");
+            var figure = scrolly.select("figure");
+            var article = scrolly.select("article");
+            var step = article.selectAll(".step");
+      
+            // initialize the scrollama
+            var scroller = scrollama();
+      
+            // generic window resize listener event
+            function handleResize() {
+              // 1. update height of step elements
+              var stepH = Math.floor(window.innerHeight);
+              step.style("height", stepH + "px");
+      
+              var figureHeight = window.innerHeight / 2 + 250;
+              var figureMarginTop = (window.innerHeight - figureHeight) / 2 + 50;
+      
+              figure
+                .style("height", figureHeight + "px")
+                .style("top", figureMarginTop + "px");
+      
+              // 3. tell scrollama to update new element dimensions
+              scroller.resize();
+            }
+      
+            // scrollama event handlers                            关键代码
+            function handleStepEnter(response) {
+      
+              // add color to current step only                    只让现在的步骤亮色
+              // step.classed("is-active", function(d, i) {
+              //   return i === response.index;
+              // });
+      
+              // update graphic based on step                        开始更新内容
+              //figure.select("img").src(response.index + 1);           //最重要一步，改变需要改变的
+              //改变图片
+              var obj=document.getElementById("test")
+              if (response.index==0){
+                obj.setAttribute("src","img/1.jpg")
+              }else if(response.index==1){
+                obj.setAttribute("src","img/2.jpg")
+              }else if(response.index==2){
+                obj.setAttribute("src","img/3.jpg")
+              }else if(response.index==3){
+                obj.setAttribute("src","img/4.jpg")
+              }else if(response.index==4){
+                obj.setAttribute("src","img/5.jpg")
+              }
+      
+      
+            }
+      
+            function setupStickyfill() {
+              d3.selectAll(".sticky").each(function() {
+                Stickyfill.add(this);
+              });
+            }
+      
+            function init() {
+              setupStickyfill();
+      
+              // 1. force a resize on load to ensure proper dimensions are sent to scrollama
+              handleResize();
+      
+              // 2. setup the scroller passing options
+              // 		this will also initialize trigger observations
+              // 3. bind scrollama event handlers (this can be chained like below)
+              scroller
+                .setup({
+                  step: "#scrolly article .step",
+                  offset: 0.5,
+                  // debug: true
+                })
+                .onStepEnter(handleStepEnter);
+      
+              // setup resize event
+              window.addEventListener("resize", handleResize);
+            }
+      
+            // kick things off
+            init();
+        </script>
+
+        <div class="content content3_3">
+            <p>针对中西部地区整体性贫困相对突出的现状，党中央、国务院更是加大对贫困地区尤其是深度贫困地区政策力度，2017年9月26日，中办、国办印发《关于支持深度贫困地区脱贫攻坚的实施意见》，对深度贫困地区脱贫攻坚作出了具体部署，特别强调中央统筹重点支持“三区三州”（西藏、四省藏区、南疆四地州和四川凉山州、云南怒江州、甘肃临夏州），重点解决因病致贫、因残致贫、饮水安全、住房安全等问题，加强教育扶贫、就业扶贫、基础设施建设、土地政策支持和兜底保障工作，打出政策“组合拳”。2018年到2020年，中央财政对深度贫困地区投入的资金达到2140亿元，其中用于“三区三州”的将近一半，达1050亿元。2018年、2019年中央财政连续两年每年新增财政资金用于深度贫困地区脱贫攻坚，其中2018年200亿增量资金中有120亿用于“三区三州”；2019年200亿增量资金全部用于“三区三州”和“三区三州”外的贫困人口多、贫困发生率高、脱贫难度大的深度贫困地区。同时，大力动员社会力量向深度贫困地区倾斜，区域性整体减贫成效明显，我国贫困县数量也从2014年的832个减少到现在的52个。</p>
+        </div>
+
+        
+        <div class="twentytwenty-container">
+
+            <img src="img/2014.jpg" />
+            <img src="img/2020.jpg" />
+
+        </div>
+        <script src="js/jquery.min.js"></script>
+
+        <script src="js/jquery.event.move.js"></script>
+
+        <script src="js/jquery.twentytwenty.js"></script>
+
+        <script>
+
+        $(window).load(function(){
+
+        $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+
+        $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+
+        });
+
+        </script>
+
+
+        <div class="content content3_4">
+            <p>另外，农村居民收入消费继续保持较快增长。2014-2019年，贫困地区农村居民人均可支配收入增速分别为12.7%、11.7%、10.4%、10.5%、10.6%、11.5%，年均名义增长12.0%，扣除价格因素，年均实际增长9.7%，实际增速比全国农村平均增速高2.2个百分点，截至2019年，贫困地区农村居民人均可支配收入已达16020元；贫困地区农村居民消费水平也不断提升，全年全国居民人均消费支出21559元，比上年增长8.6%，扣除价格因素，实际增长5.5%。</p>
+        </div>
+
+        <div id="mychart7"></div>
+        <script type="text/javascript" src="js/mychart7.js"></script>
+
+        
+        <p style="width: 780px; padding-top:50px; margin: 10px auto 0 auto; font-size: 22px; font-family: '微软雅黑'; font-weight: bold; color: #EF522F; clear: both;">对世界而言，中国的减贫意味着什么？</p>
+        <div class="content content3_4">
+            <p>贫困是一个世界性难题，反贫困是人类共同的任务。我国通过加快建设，深化改革和大规模扶贫开发，贫困人口大幅减少，成为全球最早实现联合国千年发展目标中减贫目标的发展中国家，加速了世界减贫进程，为全球减贫事业作出了巨大贡献。</p>
+        </div>
+
+        <p id="meantitle1">一、我国减贫速度明显快于全球</p>
+        <p id="mean1">世界银行发布数据显示，按照每人每天1.9美元的国际贫困标准，从2010年末到2015年末，我国贫困发生率累计下降了10.5个百分点，年均下降2.1个百分点，同期全球贫困发生率累计下降5.7个百分点，年均下降1.14个百分点，我国减贫速度明显快于全球，贫困发生率也大大低于全球。 同时我国贫困人口数量也远低于世界绝对贫困人口数量。</p>
+        
+        <div id="mychart8">
+          <iframe src="https://www.dycharts.com/show/c_35b8b2178b9a6391c71623b639d188bc" width="600" height="462" scrolling="no" frameborder="0" align=""></iframe>
+        </div>
+        
+        <p id="meantitle2">二、为全球减贫提供中国经验</p>
+        <p id="mean2">回顾中国的减贫历程，从最初的救济式扶贫，到如今的精准扶贫，中国各地通过旅游减贫、产业减贫、生态减贫等各种方式，不断提高贫困地区的可持续发展能力，走出了一条中国特色减贫道路。国际农发基金副总裁科里莉亚·里希特指出曾：“中国精准扶贫实践中的许多做法对世界减贫事业具有重要意义。”此外联合国助理秘书长、联合国开发计划署助理署长也评价道：“十八大以来，中国秉承开发式扶贫的理念，采取精准扶贫的措施，取得了显著成效。精准扶贫的有效实施为中国和世界落实联合国2030年可持续发展议程及其17个可持续发展目标作出巨大贡献。”可以说，中国的减贫成就获得了举世瞩目的称赞，在世界上赢得广泛赞誉。</p>
+
+
+        <div class="chapter_title chapter_title4" id="hr4">04.不能忘却的<span style="color: #ef452f; font-weight: bold; font-family: '微软雅黑';">他们</span></div>
+        <div class="content content4_1">
+        
+            <p>“到今年6月底，全国牺牲在扶贫岗位上的一共有770多人。”这是国务院扶贫办主任刘永富在2019年9月在新闻发布会上提到的数字。</p>
+            <p>在新闻中，扶贫干部因公牺牲的事情常有耳闻，我们从媒体报道的新闻中收集到了152位因扶贫而牺牲的干部，希望从中追记这些为了别人的生活失去了自己生命的人。</p>
+            <p>这些人中，有的因为车祸、疾病、灾害……等等原因永远地离开了我们。</p>
+        </div>
+
+
+        <div id="mychart9"></div>
+        <script type="text/javascript" src="js/mychart9.js"></script>                <!-- 牺牲原因图 -->
+
+
+        <div class="content content4_2">
+            <p>这些人中，我们知道，超过80%的人是党员，他们有县委书记、县长、乡镇干部，有驻村第一书记、村支书、乡村医生、退伍老兵……我们看到，他们是一个一个普普通通的人，在自己的工作中踏踏实实、勤勤恳恳的人。</p>
+            <p>我们不希望他们变成一个笼统的统计数字和怀念符号，我们记录下他们的名字，向他们致敬。</p>
+        </div>
+
+        
+        <hr style="width: 60px; height: 50px; border: 0; border-bottom: 2px solid rgb(48, 48, 48); margin: 10px auto 0 auto;">
+
+
+        <div id="names">
+            <span class="people p1">李夏</span>
+            <span class="people p2">曾翙翔</span>
+            <span class="people p3">柳西周</span>
+            <span class="people p4">周钢针</span>
+            <span class="people p5">康彬</span>
+            <span class="people p6">刘扬彧</span>
+            <span class="people p7">黄忠诚</span>
+            <span class="people p8">胡忠全</span>
+
+            <span class="people p9">王晓东</span>
+
+            <span class="people p10">王小权</span>
+
+            <span class="people p11">彭庆文</span>
+
+            <span class="people p12">李清平</span>
+
+            <span class="people p13">彭午林</span>
+
+            <span class="people p14">姜仕坤</span>
+
+            <span class="people p15">吴志宏</span>
+
+            <span class="people p16">程扶摇</span>
+
+            <span class="people p17">曹建彭 </span>
+
+            <span class="people p18">胡学发</span>
+
+            <span class="people p19">吴应谱</span>
+
+            <span class="people p20">樊贞子</span>
+
+            <span class="people p21">肖新泉</span>
+
+            <span class="people p22">孙港样</span>
+
+            <span class="people p23">李俊敏</span>
+
+            <span class="people p24">黎启沣</span>
+
+            <span class="people p25">黄景教</span>
+
+            <span class="people p26">杨松峰</span>
+
+            <span class="people p27">卢昌范</span>
+
+            <span class="people p28">董东</span>
+
+            <span class="people p29">王小平</span>
+
+            <span class="people p30">李兴富</span>
+
+            <span class="people p31">耿展宇</span>
+
+            <span class="people p32">冯永成</span>
+
+            <span class="people p33">龙俊</span>
+
+            <span class="people p34">李龙生</span>
+
+            <span class="people p35">和晓宏</span>
+
+            <span class="people p36">鲁志权</span>
+
+            <span class="people p37">何国权</span>
+
+            <span class="people p38">李奎</span>
+
+            <span class="people p39">彭中琼</span>
+
+            <span class="people p40">杨志刚</span>
+
+            <span class="people p41">王明香</span>
+
+            <span class="people p42">杨先六</span>
+
+            <span class="people p43">杨骅</span>
+
+            <span class="people p44">王华</span>
+
+            <span class="people p45">周康云</span>
+
+            <span class="people p46">张小娟</span>
+
+            <span class="people p47">罗强</span>
+
+            <span class="people p48">耿展宇</span>
+
+            <span class="people p49">张华</span>
+
+            <span class="people p50">曾红梅</span>
+
+            <span class="people p51">黄矢尖</span>
+
+
+            <span class="people p53">匡美建</span>
+
+            <span class="people p54">邓旭</span>
+
+            <span class="people p56">张小娟</span>
+            <span class="people p57">郭建南</span>
+            <span class="people p58">耿展宇</span>
+            <span class="people p59">黄景教</span>
+            <span class="people p60">王文涛</span>
+            <span class="people p61">王秋婷</span>
+            <span class="people p63">王川</span>
+            <span class="people p64">黄文秀</span>
+            <span class="people p65">潘胜青</span>
+            <span class="people p66">王永帅</span>
+            <span class="people p67">余芬</span>
+            <span class="people p68">吴爱秋</span>
+            <span class="people p69">张志新</span>
+            <span class="people p70">杨学奎</span>
+            <span class="people p71">和先念</span>
+            <span class="people p72">张华</span>
+            <span class="people p74">郭彩廷</span>
+
+            <span class="people p75">王秋婷</span>
+            <span class="people p76">郭彩廷</span>
+            <span class="people p77">黄文秀</span>
+            <span class="people p78">杨骅</span>
+            <span class="people p79">潘玲玲</span>
+            <span class="people p80">杨正清</span>
+            <span class="people p81">徐梅</span>
+            <span class="people p82">余芬</span>
+            <span class="people p83">马强</span>
+            <span class="people p84">马伍萨</span>
+            <span class="people p85">袁剑</span>
+            <span class="people p86">李军</span>
+            <span class="people p87">拉巴泽仁</span>
+            <span class="people p88">徐贵勇</span>
+            <span class="people p90">张小娟</span>
+            <span class="people p92">彭中琼</span>
+            <span class="people p93">胡金中</span>
+            <span class="people p94">耿展宇</span>
+            <span class="people p95">杨学奎</span>
+            <span class="people p97">余剑</span>
+            <span class="people p98">和晓宏</span>
+            <span class="people p99">李志瑛</span>
+            <span class="people p100">黄某</span>
+            <span class="people p101">张小娟</span>
+            <span class="people p102">郭彩廷</span>
+            <span class="people p103">黄文秀</span>
+            <span class="people p104">王秋婷</span>
+            <span class="people p105">杨骅</span>
+            <span class="people p106">庄宁斌</span>
+            <span class="people p107">张瑞峰</span>
+            <span class="people p108">王文贵</span>
+            <span class="people p109">张瑜</span>
+            <span class="people p110">王文涛</span>
+            <span class="people p111">潘明</span>
+            <span class="people p112">黄吉林</span>
+            <span class="people p113">盛铖</span>
+            <span class="people p114">熊成富</span>
+            <span class="people p115">李文芝</span>
+            <span class="people p116">王永帅</span>
+            <span class="people p118">吴堡</span>
+            <span class="people p119">沈海鸿</span>
+            <span class="people p122">程爱玉</span>
+            <span class="people p124">戴红蓉</span>
+            <span class="people p125">樊贞子</span>
+            <span class="people p126">吴应谱</span>
+            <span class="people p127">黎启沣</span>
+            <span class="people p128">邹炜</span>
+            <span class="people p129">李勇</span>
+            <span class="people p130">曹琼蓉</span>
+            <span class="people p131">李龙生</span>
+            <span class="people p132">张华</span>
+            <span class="people p133">余芬</span>
+            <span class="people p134">龙俊</span>
+            <span class="people p135">耿展宇</span>
+            <span class="people p137">沈海鸿</span>
+            <span class="people p138">郭明亮</span>
+            <span class="people p139">文伟红</span>
+            <span class="people p140">张小娟</span>
+            <span class="people p141">冯永成</span>
+            <span class="people p142">王新法</span>
+            <span class="people p143">和先念</span>
+            <span class="people p144">姜仕坤</span>
+            <span class="people p145">邹炜</span>
+            <span class="people p146">李勇</span>
+            <span class="people p147">杨骅</span>
+            <span class="people p148">余剑</span>
+            <span class="people p149">王坤</span>
+            <span class="people p150">曹琼蓉</span>
+            <span class="people p151">郭建南</span>
+            <span class="people p152">陈永凤</span>
+
+
+
+            <p style="margin: 30px auto 0 auto; font-size: 30px; font-weight: bold; text-align: center;">……</p>
+
+
+        </div>
+
+
+        <p style="margin: 0 auto 30 auto; font-size: 30px; font-weight: bold; text-align: center; line-height: 150px;">致敬</p>
+
+
+
+
+
+        <div id="bottom">
+          <p>数据来源：国家数据、《世界各国贫困标准研究》、《中国的减贫行动与人权进步》、世界银行数据、国务院扶贫办官网、中国扶贫在线网站、公开报道</p>
+          <p>数据可视化工具：Echarts、Chart.js、Photoshop、镝数</p>
+          <p>小组成员：黄磊、黄瑞江、肖沛贤、朱婷、周予晴</p>
+        </div>
+    </body>
+</html>
