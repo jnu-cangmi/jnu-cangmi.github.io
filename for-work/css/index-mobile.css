@@ -1,0 +1,123 @@
+/* 这个css文件用来定义手机上的显示 */
+
+@media screen and (max-width: 800px) {
+    
+    body {
+        overflow-x:hidden;
+        width:100%;
+    }
+    #top{
+        display: none;
+    }
+
+    #title_area{
+        margin-top: 40px;
+
+    }
+    #title .zg{
+        font-size: 38px;
+        letter-spacing: 4px;
+
+    }
+    #title .fp{
+        font-size: 38px;
+        letter-spacing: 4px;
+    }
+    #title .gs{
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+    #subtitle{
+
+        transform: translateX(5px);           /*向右移动5像素，排版美观一点*/
+
+    }
+
+    #content0_1{
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    #content0_2{
+        width: 90%;
+    }
+    #content1_1{
+        width: 90%;
+    }
+    #mychart1{
+        width: 100%;
+        height: 350px;
+    }
+    #content1_2{
+        width: 90%;
+    }
+    #mychart2{
+        height: 250px;
+        transform: translateX(0px);
+    }
+    #content1_3{
+        width: 90%;
+    }
+    .Mychart3title{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 17px;
+        line-height: 29px;
+    }
+    .Mychart3subtitle{
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    input{ 
+        width: 60%;
+        height: 40px;
+        font-size: 22px;
+    }
+    #danwei{
+        font-size: 16px;
+    }
+    #mychart3size{                                        /*生活费vs贫困线*/
+        margin: 30px auto 0 auto;
+        width: 100%;
+        max-width:660px;
+        height: 180px;
+    }
+
+    #content2_1{
+        width: 90%;
+    }
+    #content2_2{
+        width: 90%;
+    }
+    #chart45{
+        width: auto;
+    }
+    #mychart4{
+        width: 100%;
+    }
+    #mychart5{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #mychart6{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #content2_3{
+        width: 90%;
+    }
+    #content3_1{
+        width: 90%;
+    }
+    #content3_2{
+        width: 90%;
+    }
+    #content3_3{
+        margin-top: 0;
+        width: 90%;
+    }
+    #content4_1{
+        margin-top: 0;
+        width: 90%;
+    }
+}
