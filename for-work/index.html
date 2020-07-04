@@ -1,30 +1,10 @@
-<!--                                  _oo8oo_                                                                        -->
-<!--                                 o8888888o                                                                       -->
-<!--                                 88" . "88                                                                       -->
-<!--                                (|  -_-  |)                                                                      -->
-<!--                                 0\  =  /0                                                                       -->
-<!--                               ___/'==='\___                                                                     -->
-<!--                             .' \\|      |// '.                                                                  -->
-<!--                            / \\|||  :   |||// \                                                                 -->
-<!--                           / _||||| -:-   ||||_ \                                                                -->
-<!--                          |   | \\\  -   /// |  |                                                                -->
-<!--                          | \_|  ''\-=-/' ' |_/ |                                                                -->
-<!--                          \  .-\__  '-'   __/-. /                                                                -->
-<!--                        ___'. .'   /-.-\  '. .'___                                                               -->
-<!--                     ."" '<  '._ _\_<|>_/_ _.'  >' ""                                                            -->
-<!--                    | | :  `- `.:` \ _ /`:.`/ -`  : | |                                                          -->
-<!--                    \  \ `-.   \_ __\ /__ _/   .-` /  /                                                          -->
-<!--                =====`-.____`.___ \_____/ ___.`____.-`=====                                                      -->
-<!--                                  `=-=-=`                                                                        -->
-<!--               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                     -->
-<!--                          佛祖保佑        永无BUG                                                                 -->
-<!--                          求个高分        这次一定                                                                -->
+
 
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
         <link type="text/css" href="css/index.css" rel="stylesheet"/>
         <link type="text/css" href="css/index-mobile.css" rel="stylesheet"/>
         <link type="text/css" href="css/twentytwenty.css" rel="stylesheet"/>
@@ -32,6 +12,24 @@
         <script type="text/javascript" src="js/china.js"></script>
         <script type="text/javascript" src="js/Chart.min.js"></script>
         <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+        <script>
+            //通过touchstart和touchend
+            window.οnlοad=function () {  
+                document.addEventListener('touchstart',function (event) {  
+                    if(event.touches.length>1){  
+                        event.preventDefault();  //阻止元素的默认行为
+                    }  
+                })  
+                var lastTouchEnd=0;  
+                document.addEventListener('touchend',function (event) {  
+                    var now=(new Date()).getTime();  
+                    if(now-lastTouchEnd<=300){  
+                        event.preventDefault();  
+                    }  
+                    lastTouchEnd=now;  //当前为最后一次触摸
+                },false)  
+            }
+        </script>
 
         <title>中国·扶贫故事-暨南大学新闻与传播学院数据新闻作品</title>
     </head>
